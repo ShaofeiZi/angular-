@@ -3,3 +3,47 @@
 <button mat-raised-button color="primary">Primary</button>
 <span matTooltip="Tooltip!">I have a tooltip</span>
 <!-- <router-outlet></router-outlet> -->
+<div>点
+<!--<i class="material-icons">save</i>-->
+  <mat-icon>save</mat-icon>
+保存
+</div>
+<div>
+  默认颜色
+  <mat-icon>message</mat-icon>
+</div>
+
+<div>
+primary色
+  <mat-icon color="primary">message</mat-icon>
+</div>
+
+<div>
+accent色
+  <mat-icon color="accent">message</mat-icon>
+</div>
+
+<div>
+  warn色
+  <mat-icon color="warn">message</mat-icon>
+</div>
+<h2>自定义SVG icon</h2>
+
+<div>
+  <mat-icon svgIcon="custom-svg:angular"></mat-icon>
+  <mat-icon svgIcon="custom-svg:angular" color="primary"></mat-icon>
+  <mat-icon svgIcon="custom-svg:angular" color="accent"></mat-icon>
+  <mat-icon svgIcon="custom-svg:angular" color="warn"></mat-icon>
+</div>
+
+<h2>在MatIcon中使用FontAwesome</h2>
+
+<div>
+  <mat-icon fontSet="fontawesome" fontIcon="fa-thumbs-up"></mat-icon>
+  <mat-icon fontSet="fontawesome" fontIcon="fa-spin">
+    <mat-icon fontSet="fontawesome" fontIcon="fa-thumbs-up"></mat-icon>
+  </mat-icon>
+  <mat-icon fontSet="fontawesome" fontIcon="fa-thumbs-up" color="primary"></mat-icon>
+  <mat-icon fontSet="fontawesome" fontIcon="fa-thumbs-up" color="accent"></mat-icon>
+  <mat-icon fontSet="fontawesome" fontIcon="fa-thumbs-up" color="warn"></mat-icon>
+</div>
