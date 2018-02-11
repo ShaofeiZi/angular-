@@ -221,8 +221,13 @@ npm install --save hammerjs
 import 'hammerjs';
 ```
 ### Material Icons
-老规矩 先安装
-```
-npm install material-design-icons
-```
+直接在index.html加入
+```html
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+```    
+是不是够简单
+
+### 提示
+之前Angular Material的前缀是mdXxxx或md-xxxx的在Angular Material 5之后都统一改成matXxxx或mat-xxxx了，复制粘贴的时候注意一下，如果是老版本的写法就改一下
 
